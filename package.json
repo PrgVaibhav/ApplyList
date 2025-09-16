@@ -1,23 +1,46 @@
 {
   "name": "applylist",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "description": "A platform to track, manage and organize job applications easily.",
+  "author": "Vaibhav Kumar",
+  "keywords": [
+    "job",
+    "apply",
+    "tracker",
+    "career"
+  ],
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start"
   },
   "dependencies": {
+    "avatar": "^0.1.0",
+    "breadcrumb": "^1.0.0",
+    "button": "^1.1.1",
+    "card": "^2.5.4",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "form": "^0.2.5",
+    "input": "^1.0.1",
+    "label": "^0.2.2",
+    "lucide-react": "^0.544.0",
+    "next": "15.5.3",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "next": "15.5.3"
+    "react-hook-form": "^7.62.0",
+    "slider": "^1.0.4",
+    "tailwind-merge": "^3.3.1",
+    "textarea": "^0.3.0"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4"
+    "tailwindcss": "^4",
+    "tw-animate-css": "^1.3.8",
+    "typescript": "^5"
   }
 }
